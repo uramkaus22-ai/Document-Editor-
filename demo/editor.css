@@ -25,6 +25,8 @@ body {
   height: 100%;
   overflow: hidden;
   outline: none;
+  direction: ltr;           /* Ensure left-to-right text direction */
+  unicode-bidi: bidi-override;  /* Prevent text direction issues */
 }
 .page-content p {
   margin: 0 0 8px 0;
